@@ -1,0 +1,28 @@
+{
+  "name": "portal",
+  "version": "1.0.0",
+  "description": "ゆうやみポータル",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u83ism/Portal.git"
+  },
+  "author": "u83ism",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/u83ism/Portal/issues"
+  },
+  "homepage": "https://github.com/u83ism/Portal#readme",
+  "dependencies": {
+    "vue": "^3.2.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.2.6",
+    "vite": "^2.5.2"
+  }
+}
