@@ -2,6 +2,7 @@
   "name": "portal",
   "version": "1.0.0",
   "description": "ゆうやみポータル",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -19,17 +20,17 @@
   },
   "homepage": "https://github.com/u83ism/Portal#readme",
   "dependencies": {
-    "vue": "^3.4.15"
+    "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@types/node": "^20.11.19",
-    "@vitejs/plugin-vue": "^5.0.3",
-    "@vue/compiler-sfc": "^3.4.15",
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.3.3",
-    "vite": "^5.1.4",
-    "vue-tsc": "^1.8.27"
+    "@tailwindcss/postcss": "^4.0.9",
+    "@types/node": "^22.13.8",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/compiler-sfc": "^3.5.13",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.8"
   }
 }
