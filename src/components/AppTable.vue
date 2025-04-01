@@ -13,7 +13,7 @@ defineProps<{
 			<div v-for="account in accounts" :key="account.url.href"
 				class="p-4 border rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
 				<div class="flex items-center mb-2">
-					<div class="w-8 h-8 mr-2" v-html="account.icon"></div>
+					<div class="w-8 h-8 mr-2 flex items-center justify-center" v-html="account.icon"></div>
 					<h3 class="text-xl font-semibold">{{ account.serviceName }}</h3>
 				</div>
 				<p class="text-gray-600 mb-2">{{ account.explanation }}</p>
