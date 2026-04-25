@@ -11,8 +11,7 @@ import AppList from './components/AppList.vue'
     <div class="min-h-screen" style="background-color: rgba(0, 0, 0, 0.5);">
       <section class="container mx-auto px-4 py-8 text-white">
         <div class="text-center mb-8">
-          <img alt="ゆうやみロゴ" src="./assets/logo.png" class="mx-auto h-24 mb-4" />
-          <HelloWorld msg="ゆうやみポータル" />
+<HelloWorld msg="ゆうやみポータル" />
         </div>
 
         <AppList :apps="myApps" />
