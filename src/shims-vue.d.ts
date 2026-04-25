@@ -3,3 +3,8 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+
+declare module '*.css' {
+  const styles: Record<string, string>
+  export default styles
+}

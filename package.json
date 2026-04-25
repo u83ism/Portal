@@ -20,19 +20,19 @@
   },
   "homepage": "https://github.com/u83ism/Portal#readme",
   "dependencies": {
-    "vue": "^3.5.13"
+    "vue": "^3.5.33"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.0",
-    "@types/node": "^22.13.17",
-    "@vitejs/plugin-vue": "^5.2.3",
-    "@vue/compiler-sfc": "^3.5.13",
-    "firebase-tools": "^14.0.1",
-    "npm-check-updates": "^17.1.16",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.0",
-    "typescript": "^5.8.2",
-    "vite": "^6.2.4",
-    "vue-tsc": "^2.2.8"
+    "@tailwindcss/postcss": "^4.2.4",
+    "@types/node": "^25.6.0",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "@vue/compiler-sfc": "^3.5.33",
+    "firebase-tools": "^15.15.0",
+    "npm-check-updates": "^21.0.3",
+    "postcss": "^8.5.10",
+    "tailwindcss": "^4.2.4",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.10",
+    "vue-tsc": "^3.2.7"
   }
 }

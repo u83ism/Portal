@@ -17,7 +17,8 @@ export const categoryVariation = {
 	sns: "🗣SNS",
 	music: "🎵音楽",
 	movie: "🎥映画",
-	programming: "👨‍💻プログラミング"
+	programming: "👨‍💻プログラミング",
+	blog: "✍️ ブログ"
 } as const;
 
 export type ServiceAccount = {
@@ -59,6 +60,13 @@ export const myApps: Array<MyApp> = [
 		url: new URL("https://21st-century-power-bomb.netlify.app/"),
 		explanation: "プロレス研究やレビューなどを載せています。"
 	},
+	{
+		id: 5,
+		category: categoryVariation.blog,
+		name: "u83 said so.",
+		url: new URL("https://u83ism.github.io/blog/"),
+		explanation: "ブログです",
+	},
 ];
 
 export const serviceAccounts: Array<ServiceAccount> = [
@@ -66,7 +74,7 @@ export const serviceAccounts: Array<ServiceAccount> = [
 		category: categoryVariation.sns,
 		serviceName: "X",
 		url: new URL("https://x.com/u83unlimited"),
-		explanation: "なんでもありのアカウントです。萌えエロ絵のRTを行うので注意",
+		explanation: "なんでもありのアカウントです。萌えエロ絵のRPを行うので注意",
 		icon: icons.twitter
 	},
 	{
