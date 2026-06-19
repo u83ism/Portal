@@ -36,7 +36,7 @@ export const myApps: Array<MyApp> = [
 		id: 1,
 		category: categoryVariation.various,
 		name: "Don't Look Back",
-		url: new URL("https://u83ism.github.io/DLB/"),
+		url: new URL("https://dont-look-back-u83.pages.dev/"),
 		explanation: "よろず系です",
 	},
 	{
@@ -64,7 +64,7 @@ export const myApps: Array<MyApp> = [
 		id: 5,
 		category: categoryVariation.blog,
 		name: "u83 said so.",
-		url: new URL("https://u83ism.github.io/blog/"),
+		url: new URL("https://u83-blog.pages.dev/"),
 		explanation: "ブログです",
 	},
 ];
